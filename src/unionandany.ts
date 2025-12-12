@@ -12,3 +12,12 @@ for (let ar in arr){
     }
 }
 console.log(ans);
+
+let star : boolean | number= false;
+star=123;
+star=true;      
+star=456;
+console.log(star);  
+star=false;
+console.log(star);
+
