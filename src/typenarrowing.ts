@@ -4,3 +4,10 @@ function getin(kind : string |number){
     }
     return `${kind} is number`;
 }
+
+function getmsg(msg?: string){
+    if(!msg){
+        return "no msg found";
+    }   
+    return msg.toUpperCase();
+}
