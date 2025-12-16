@@ -11,3 +11,12 @@ function getmsg(msg?: string){
     }   
     return msg.toUpperCase();
 }
+
+function getarr(arr: (string | number)[]){
+    for(let a of arr){
+        if(typeof a==='string'){
+            console.log(`${a} is string`);
+        }else{
+            console.log(`${a} is number`);
+        }
+    }}
